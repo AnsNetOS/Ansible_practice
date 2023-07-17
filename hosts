@@ -41,7 +41,14 @@
 # leading 0s:
 
 #db-[99:101]-node.example.com
+
+[web_servers]
 172.16.25.134
 172.16.25.133
+
+[db_servers]
 172.16.25.135
+
+[file_server]
+172.16.250.248
 
