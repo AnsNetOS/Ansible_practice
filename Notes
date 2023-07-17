@@ -1,0 +1,19 @@
+If you are not mentioning the private key while executing ansible command, then default ansible.cfg is used which is stored in current directory, if not then from home directory and if this aslo not then from the /etc/ansible/  
+/etc/ansible/
+
+Also, the inventory file in which we specify the server i.e action to be done also, present on the /etc/ansible/hosts but we have to config the hosts file  and if in case you not specify the inventory file while executing ansible command then from default path it is taken /etc/hosts/ .
+
+The ansible playbook is limited to os distribution as instead of apt we have yum, paceman, in different os. So, how we can run this palybook for all server which have ubuntu or Fedora distribution. THerefore, we add when statement for each. Saying that run only for Ubuntu.
+$ ansible all --key-file ~/.ssh/ansible -i inventory_file(hosts) -m ""  -a "". 
+
+
+$ansible all -m apt -a upgrade = true  ====> here automatic hosts and cfg file will take. 
+
+
+
+
+
+
+
+
+
