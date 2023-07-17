@@ -1,0 +1,32 @@
+---
+
+- name: Playbook Example
+  hosts: all
+  tasks: 
+
+  - name: Upgrading Package
+    apt: 
+      update: yes
+    when: ansible_distribution == "Ubuntu"
+
+  - name: Installing package 
+    apt: 
+      name: tmux
+      state: latest
+    when: ansible_distribution in ["Ubuntu", "Debian"] 
+
+  - name: Upgrading Package
+    dnf:
+      update: yes
+    when: ansible_distribution == "CentOS"
+
+  - name: Installing package
+    dnf:
+      name: php
+      state: latest
+    when: ansible_distribution == "CentOS" and ansible_distribution_version == "8.2"
+
+
+
+
+# Just for refrence command is :  ansible all -m gather_facts --limit 172.16.85.248 | grep ansible_distribution
