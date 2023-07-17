@@ -1,0 +1,83 @@
+---
+### Here we telling to run on all server irrespective of group created under inventory file.
+- name: Playbook Example
+  hosts: all
+  tasks: 
+
+  - name: Upgrading Package
+    apt: 
+      update: yes
+      upgrade: dist
+    when: ansible_distribution == "Ubuntu"
+
+  - name: Installing package 
+    dnf: 
+      name:
+        - update_only: yes
+        - update_cache: yes 
+    when: ansible_distribution == "CentOS" 
+
+
+### Here we are focusing on the web_server group whichhas two server in them and in those server we want web service 
+
+
+- name: web_servers
+  become: true
+  tasks: 
+
+  - name: Installing apache and php packages for U ubuntu Server 
+    apt: 
+      name: 
+        - apache2
+        - libapache2-mod-php
+      state: latest
+    when: ansible_distribution == "Ubuntu"
+
+  - name: Installing php and apache on Centos server 
+    dnf: 
+      name: 
+        - httpd
+        - php
+      state: lastest
+    when: ansible_distribution == "CentOS"
+
+
+# Here we are telling to install db server on the selecting server and it can be either Cnetos or Ubuntu distribution 
+
+
+
+- name: Installing db server 
+  become: true
+  tasks: 
+
+  - name: Instaling on Ubuntu 
+    apt: 
+      name: mariadb-server 
+      state: latest
+    when: ansible_distributiom == "Ubuntu"
+
+  - name: Installing on Centos
+    dnf: 
+      name: mariadb
+      state: latest
+    when: ansible_distribution == "CentOS"
+
+
+
+# Here we are installing file server and containing one server which can be centos or Ubuntu but here we created only one module with name package as in both distribution the package name is same i.e sambs so, no need of specifying the dnf and apt module or when keyword. 
+
+
+
+- name: Installing File server 
+  hosts: file_server
+  become: true
+  tasks: 
+
+  - name:  Installing file server samba which is same package name on both server either it be ubuntu or centos 
+    package: 
+      name: samba
+      state: latest  
+
+
+
+# Just for refrence command is :  ansible all -m gather_facts --limit 172.16.85.248 | grep ansible_distribution
