@@ -2,6 +2,7 @@
 ### Here we telling to run on all server irrespective of group created under inventory file.
 - name: Playbook Example
   hosts: all
+  tags: always
   tasks: 
 
   - name: Upgrading Package
@@ -21,11 +22,13 @@
 ### Here we are focusing on the web_server group whichhas two server in them and in those server we want web service 
 
 
-- name: web_servers
+- name: Installation of web_server 
+  hosts: web_servers
   become: true
+  tags: apache,apache2,php,httpd
   tasks: 
 
-  - name: Installing apache and php packages for U ubuntu Server 
+  - name: Installing apache and php packages for Ubuntu Server
     apt: 
       name: 
         - apache2
@@ -41,13 +44,26 @@
       state: lastest
     when: ansible_distribution == "CentOS"
 
+#Here I am copy the file /files/default_index.html file from ansible server to remote server. Also, you can specify tag under each module,
+#not necessary to specifiy under header.
+  - name: Copying the default file
+    copy:
+      src: ./file/default_index.html
+      dest: /var/tmp/index.html
+      owner: root
+      group: root
+      mode: 0644
+
+
 
 # Here we are telling to install db server on the selecting server and it can be either Cnetos or Ubuntu distribution 
 
 
 
-- name: Installing db server 
+- name: Installing db server
+  hosts: db_servers   
   become: true
+  tags: db,mariadb,database
   tasks: 
 
   - name: Instaling on Ubuntu 
@@ -70,14 +86,32 @@
 
 - name: Installing File server 
   hosts: file_server
+  tags: samba
   become: true
   tasks: 
 
   - name:  Installing file server samba which is same package name on both server either it be ubuntu or centos 
     package: 
       name: samba
-      state: latest  
+      state: latest 
 
+# Here i am installing teraform on our server i.e ansible from a amd.zip file so for that we should have unzip package and module use to unzip is unarchive where as unzip is the global package name but while executing we use unarchive.  
 
+- name: On Workstation 
+  hosts: workstation
+  become: true
+  tasks: 
+
+  - name: Installing unzip 
+    package: unzip 
+
+  - name: Installing terform 
+    unarchive: https://releases.hashicorp.com/teraform/0.12.28/teraform_0.12.28_linux_amd64.zip
+      dest: /usr/local/bin/
+      remote-src: yes
+      owner: root
+      group: root
+      mode: 0755
 
 # Just for refrence command is :  ansible all -m gather_facts --limit 172.16.85.248 | grep ansible_distribution
+
