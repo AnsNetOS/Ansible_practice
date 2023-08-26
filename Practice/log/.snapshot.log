@@ -1,0 +1,509 @@
+######################
+Welcome to Server Monitoring X
+#######################
+Current date and time Saturday 24 June 2023 03:54:07 PM IST
+#######################
+Currenty logged in user: anuragm@netmonastery.network
+#######################
+Last booting time at : 2023-06-24 14:00
+The total uptime is : 1:53
+#######################
+Firewall status : 
+#######################
+#######################
+os-version: Ubuntu 20.04.6 LTS
+Total available RAM
+12497 MB
+Hostname : Dell-5KSLLL3
+######################
+Welcome to Server Monitoring X
+#######################
+Current date and time Saturday 24 June 2023 03:54:10 PM IST
+#######################
+Currenty logged in user: anuragm@netmonastery.network
+#######################
+Last booting time at : 2023-06-24 14:00
+The total uptime is : 1:53
+#######################
+Firewall status : 
+#######################
+#######################
+os-version: Ubuntu 20.04.6 LTS
+Total available RAM
+12501 MB
+Hostname : Dell-5KSLLL3
+######################
+Welcome to Server Monitoring X
+#######################
+Current date and time Saturday 24 June 2023 03:54:13 PM IST
+#######################
+Currenty logged in user: anuragm@netmonastery.network
+#######################
+Last booting time at : 2023-06-24 14:00
+The total uptime is : 1:54
+#######################
+Firewall status : 
+#######################
+#######################
+os-version: Ubuntu 20.04.6 LTS
+Total available RAM
+12496 MB
+Hostname : Dell-5KSLLL3
+######################
+Welcome to Server Monitoring X
+#######################
+Current date and time Saturday 24 June 2023 03:54:16 PM IST
+#######################
+Currenty logged in user: anuragm@netmonastery.network
+#######################
+Last booting time at : 2023-06-24 14:00
+The total uptime is : 1:54
+#######################
+Firewall status : 
+#######################
+#######################
+os-version: Ubuntu 20.04.6 LTS
+Total available RAM
+12501 MB
+Hostname : Dell-5KSLLL3
+######################
+Welcome to Server Monitoring X
+#######################
+Current date and time Saturday 24 June 2023 03:55:25 PM IST
+#######################
+Currenty logged in user: anuragm@netmonastery.network
+#######################
+Last booting time at : 2023-06-24 14:00
+The total uptime is : 1:55
+#######################
+Firewall status : 
+#######################
+#######################
+os-version: Ubuntu 20.04.6 LTS
+Total available RAM
+12504 MB
+Hostname : Dell-5KSLLL3
+######################
+Welcome to Server Monitoring X
+#######################
+Current date and time Saturday 24 June 2023 03:55:28 PM IST
+#######################
+Currenty logged in user: anuragm@netmonastery.network
+#######################
+Last booting time at : 2023-06-24 14:00
+The total uptime is : 1:55
+#######################
+Firewall status : 
+#######################
+#######################
+os-version: Ubuntu 20.04.6 LTS
+Total available RAM
+12509 MB
+Hostname : Dell-5KSLLL3
+[H[2J[3J#################
+Mounted directory
+FS Name                                 	Percent             
+/dev                                    	0%                  
+/run                                    	1%                  
+/                                       	12%                 
+/dev/shm                                	2%                  
+/run/lock                               	1%                  
+/sys/fs/cgroup                          	0%                  
+/snap/bare/5                            	100%                
+/snap/snapd/19361                       	100%                
+/snap/canonical-livepatch/229           	100%                
+/snap/core/14946                        	100%                
+/snap/zoom-client/205                   	100%                
+/snap/gnome-3-38-2004/119               	100%                
+/snap/slack/79                          	100%                
+/snap/gnome-3-34-1804/93                	100%                
+/snap/core22/766                        	100%                
+/snap/gnome-42-2204/105                 	100%                
+/snap/core20/1950                       	100%                
+/snap/snap-store/638                    	100%                
+/snap/gnome-3-38-2004/140               	100%                
+/snap/gtk-common-themes/1535            	100%                
+/snap/core/15419                        	100%                
+/snap/obs-studio/1284                   	100%                
+/snap/gnome-42-2204/111                 	100%                
+/snap/core22/750                        	100%                
+/snap/core20/1891                       	100%                
+/snap/core18/2785                       	100%                
+/snap/canonical-livepatch/235           	100%                
+/snap/snapd/19457                       	100%                
+/snap/core18/2751                       	100%                
+/snap/snap-store/959                    	100%                
+/boot                                   	22%                 
+/boot/efi                               	2%                  
+/run/user/752801280                     	1%                  
+#####################
+[H[2J[3J#################
+Mounted directory
+FS Name                                 	Percent             
+/dev                                    	0%                  
+/run                                    	1%                  
+/                                       	12%                 
+/dev/shm                                	2%                  
+/run/lock                               	1%                  
+/sys/fs/cgroup                          	0%                  
+/snap/bare/5                            	100%                
+/snap/snapd/19361                       	100%                
+/snap/canonical-livepatch/229           	100%                
+/snap/core/14946                        	100%                
+/snap/zoom-client/205                   	100%                
+/snap/gnome-3-38-2004/119               	100%                
+/snap/slack/79                          	100%                
+/snap/gnome-3-34-1804/93                	100%                
+/snap/core22/766                        	100%                
+/snap/gnome-42-2204/105                 	100%                
+/snap/core20/1950                       	100%                
+/snap/snap-store/638                    	100%                
+/snap/gnome-3-38-2004/140               	100%                
+/snap/gtk-common-themes/1535            	100%                
+/snap/core/15419                        	100%                
+/snap/obs-studio/1284                   	100%                
+/snap/gnome-42-2204/111                 	100%                
+/snap/core22/750                        	100%                
+/snap/core20/1891                       	100%                
+/snap/core18/2785                       	100%                
+/snap/canonical-livepatch/235           	100%                
+/snap/snapd/19457                       	100%                
+/snap/core18/2751                       	100%                
+/snap/snap-store/959                    	100%                
+/boot                                   	22%                 
+/boot/efi                               	2%                  
+/run/user/752801280                     	1%                  
+#####################
+[H[2J[3J#################
+Mounted directory
+FS Name                                 	Percent             
+/dev                                    	0%                  
+/run                                    	1%                  
+/                                       	12%                 
+/dev/shm                                	2%                  
+/run/lock                               	1%                  
+/sys/fs/cgroup                          	0%                  
+/snap/bare/5                            	100%                
+/snap/snapd/19361                       	100%                
+/snap/canonical-livepatch/229           	100%                
+/snap/core/14946                        	100%                
+/snap/zoom-client/205                   	100%                
+/snap/gnome-3-38-2004/119               	100%                
+/snap/slack/79                          	100%                
+/snap/gnome-3-34-1804/93                	100%                
+/snap/core22/766                        	100%                
+/snap/gnome-42-2204/105                 	100%                
+/snap/core20/1950                       	100%                
+/snap/snap-store/638                    	100%                
+/snap/gnome-3-38-2004/140               	100%                
+/snap/gtk-common-themes/1535            	100%                
+/snap/core/15419                        	100%                
+/snap/obs-studio/1284                   	100%                
+/snap/gnome-42-2204/111                 	100%                
+/snap/core22/750                        	100%                
+/snap/core20/1891                       	100%                
+/snap/core18/2785                       	100%                
+/snap/canonical-livepatch/235           	100%                
+/snap/snapd/19457                       	100%                
+/snap/core18/2751                       	100%                
+/snap/snap-store/959                    	100%                
+/boot                                   	22%                 
+/boot/efi                               	2%                  
+/run/user/752801280                     	1%                  
+#####################
+[H[2J[3J#################
+Mounted directory
+FS Name                                 	Percent             
+/dev                                    	0%                  
+/run                                    	1%                  
+/                                       	12%                 
+/dev/shm                                	2%                  
+/run/lock                               	1%                  
+/sys/fs/cgroup                          	0%                  
+/snap/bare/5                            	100%                
+/snap/snapd/19361                       	100%                
+/snap/canonical-livepatch/229           	100%                
+/snap/core/14946                        	100%                
+/snap/zoom-client/205                   	100%                
+/snap/gnome-3-38-2004/119               	100%                
+/snap/slack/79                          	100%                
+/snap/gnome-3-34-1804/93                	100%                
+/snap/core22/766                        	100%                
+/snap/gnome-42-2204/105                 	100%                
+/snap/core20/1950                       	100%                
+/snap/snap-store/638                    	100%                
+/snap/gnome-3-38-2004/140               	100%                
+/snap/gtk-common-themes/1535            	100%                
+/snap/core/15419                        	100%                
+/snap/obs-studio/1284                   	100%                
+/snap/gnome-42-2204/111                 	100%                
+/snap/core22/750                        	100%                
+/snap/core20/1891                       	100%                
+/snap/core18/2785                       	100%                
+/snap/canonical-livepatch/235           	100%                
+/snap/snapd/19457                       	100%                
+/snap/core18/2751                       	100%                
+/snap/snap-store/959                    	100%                
+/boot                                   	22%                 
+/boot/efi                               	2%                  
+/run/user/752801280                     	1%                  
+#####################
+[H[2J[3J#################
+Mounted directory
+FS Name                                 	Percent             
+/dev                                    	0%                  
+/run                                    	1%                  
+/                                       	12%                 
+/dev/shm                                	2%                  
+/run/lock                               	1%                  
+/sys/fs/cgroup                          	0%                  
+/snap/bare/5                            	100%                
+/snap/snapd/19361                       	100%                
+/snap/canonical-livepatch/229           	100%                
+/snap/core/14946                        	100%                
+/snap/zoom-client/205                   	100%                
+/snap/gnome-3-38-2004/119               	100%                
+/snap/slack/79                          	100%                
+/snap/gnome-3-34-1804/93                	100%                
+/snap/core22/766                        	100%                
+/snap/gnome-42-2204/105                 	100%                
+/snap/core20/1950                       	100%                
+/snap/snap-store/638                    	100%                
+/snap/gnome-3-38-2004/140               	100%                
+/snap/gtk-common-themes/1535            	100%                
+/snap/core/15419                        	100%                
+/snap/obs-studio/1284                   	100%                
+/snap/gnome-42-2204/111                 	100%                
+/snap/core22/750                        	100%                
+/snap/core20/1891                       	100%                
+/snap/core18/2785                       	100%                
+/snap/canonical-livepatch/235           	100%                
+/snap/snapd/19457                       	100%                
+/snap/core18/2751                       	100%                
+/snap/snap-store/959                    	100%                
+/boot                                   	22%                 
+/boot/efi                               	2%                  
+/run/user/752801280                     	1%                  
+#####################
+[H[2J[3J#################
+Mounted directory
+FS Name                                 	Percent             
+/dev                                    	0%                  
+/run                                    	1%                  
+/                                       	12%                 
+/dev/shm                                	2%                  
+/run/lock                               	1%                  
+/sys/fs/cgroup                          	0%                  
+/snap/bare/5                            	100%                
+/snap/snapd/19361                       	100%                
+/snap/canonical-livepatch/229           	100%                
+/snap/core/14946                        	100%                
+/snap/zoom-client/205                   	100%                
+/snap/gnome-3-38-2004/119               	100%                
+/snap/slack/79                          	100%                
+/snap/gnome-3-34-1804/93                	100%                
+/snap/core22/766                        	100%                
+/snap/gnome-42-2204/105                 	100%                
+/snap/core20/1950                       	100%                
+/snap/snap-store/638                    	100%                
+/snap/gnome-3-38-2004/140               	100%                
+/snap/gtk-common-themes/1535            	100%                
+/snap/core/15419                        	100%                
+/snap/obs-studio/1284                   	100%                
+/snap/gnome-42-2204/111                 	100%                
+/snap/core22/750                        	100%                
+/snap/core20/1891                       	100%                
+/snap/core18/2785                       	100%                
+/snap/canonical-livepatch/235           	100%                
+/snap/snapd/19457                       	100%                
+/snap/core18/2751                       	100%                
+/snap/snap-store/959                    	100%                
+/boot                                   	22%                 
+/boot/efi                               	2%                  
+/run/user/752801280                     	1%                  
+#####################
+[H[2J[3J#################
+Mounted directory
+FS Name                                 	Percent             
+/dev                                    	0%                  
+/run                                    	1%                  
+/                                       	12%                 
+/dev/shm                                	2%                  
+/run/lock                               	1%                  
+/sys/fs/cgroup                          	0%                  
+/snap/bare/5                            	100%                
+/snap/snapd/19361                       	100%                
+/snap/canonical-livepatch/229           	100%                
+/snap/core/14946                        	100%                
+/snap/zoom-client/205                   	100%                
+/snap/gnome-3-38-2004/119               	100%                
+/snap/slack/79                          	100%                
+/snap/gnome-3-34-1804/93                	100%                
+/snap/core22/766                        	100%                
+/snap/gnome-42-2204/105                 	100%                
+/snap/core20/1950                       	100%                
+/snap/snap-store/638                    	100%                
+/snap/gnome-3-38-2004/140               	100%                
+/snap/gtk-common-themes/1535            	100%                
+/snap/core/15419                        	100%                
+/snap/obs-studio/1284                   	100%                
+/snap/gnome-42-2204/111                 	100%                
+/snap/core22/750                        	100%                
+/snap/core20/1891                       	100%                
+/snap/core18/2785                       	100%                
+/snap/canonical-livepatch/235           	100%                
+/snap/snapd/19457                       	100%                
+/snap/core18/2751                       	100%                
+/snap/snap-store/959                    	100%                
+/boot                                   	22%                 
+/boot/efi                               	2%                  
+/run/user/752801280                     	1%                  
+#####################
+[H[2J[3J#################
+Mounted directory
+FS Name                                 	Percent             
+/dev                                    	0%                  
+/run                                    	1%                  
+/                                       	12%                 
+/dev/shm                                	2%                  
+/run/lock                               	1%                  
+/sys/fs/cgroup                          	0%                  
+/snap/bare/5                            	100%                
+/snap/snapd/19361                       	100%                
+/snap/canonical-livepatch/229           	100%                
+/snap/core/14946                        	100%                
+/snap/zoom-client/205                   	100%                
+/snap/gnome-3-38-2004/119               	100%                
+/snap/slack/79                          	100%                
+/snap/gnome-3-34-1804/93                	100%                
+/snap/core22/766                        	100%                
+/snap/gnome-42-2204/105                 	100%                
+/snap/core20/1950                       	100%                
+/snap/snap-store/638                    	100%                
+/snap/gnome-3-38-2004/140               	100%                
+/snap/gtk-common-themes/1535            	100%                
+/snap/core/15419                        	100%                
+/snap/obs-studio/1284                   	100%                
+/snap/gnome-42-2204/111                 	100%                
+/snap/core22/750                        	100%                
+/snap/core20/1891                       	100%                
+/snap/core18/2785                       	100%                
+/snap/canonical-livepatch/235           	100%                
+/snap/snapd/19457                       	100%                
+/snap/core18/2751                       	100%                
+/snap/snap-store/959                    	100%                
+/boot                                   	22%                 
+/boot/efi                               	2%                  
+/run/user/752801280                     	1%                  
+#####################
+[H[2J[3J#################
+Mounted directory
+FS Name                                 	Percent             
+/dev                                    	0%                  
+/run                                    	1%                  
+/                                       	12%                 
+/dev/shm                                	2%                  
+/run/lock                               	1%                  
+/sys/fs/cgroup                          	0%                  
+/snap/bare/5                            	100%                
+/snap/snapd/19361                       	100%                
+/snap/canonical-livepatch/229           	100%                
+/snap/core/14946                        	100%                
+/snap/zoom-client/205                   	100%                
+/snap/gnome-3-38-2004/119               	100%                
+/snap/slack/79                          	100%                
+/snap/gnome-3-34-1804/93                	100%                
+/snap/core22/766                        	100%                
+/snap/gnome-42-2204/105                 	100%                
+/snap/core20/1950                       	100%                
+/snap/snap-store/638                    	100%                
+/snap/gnome-3-38-2004/140               	100%                
+/snap/gtk-common-themes/1535            	100%                
+/snap/core/15419                        	100%                
+/snap/obs-studio/1284                   	100%                
+/snap/gnome-42-2204/111                 	100%                
+/snap/core22/750                        	100%                
+/snap/core20/1891                       	100%                
+/snap/core18/2785                       	100%                
+/snap/canonical-livepatch/235           	100%                
+/snap/snapd/19457                       	100%                
+/snap/core18/2751                       	100%                
+/snap/snap-store/959                    	100%                
+/boot                                   	22%                 
+/boot/efi                               	2%                  
+/run/user/752801280                     	1%                  
+#####################
+[H[2J[3J#################
+Mounted directory
+FS Name                                 	Percent             
+/dev                                    	0%                  
+/run                                    	1%                  
+/                                       	12%                 
+/dev/shm                                	2%                  
+/run/lock                               	1%                  
+/sys/fs/cgroup                          	0%                  
+/snap/bare/5                            	100%                
+/snap/snapd/19361                       	100%                
+/snap/canonical-livepatch/229           	100%                
+/snap/core/14946                        	100%                
+/snap/zoom-client/205                   	100%                
+/snap/gnome-3-38-2004/119               	100%                
+/snap/slack/79                          	100%                
+/snap/gnome-3-34-1804/93                	100%                
+/snap/core22/766                        	100%                
+/snap/gnome-42-2204/105                 	100%                
+/snap/core20/1950                       	100%                
+/snap/snap-store/638                    	100%                
+/snap/gnome-3-38-2004/140               	100%                
+/snap/gtk-common-themes/1535            	100%                
+/snap/core/15419                        	100%                
+/snap/obs-studio/1284                   	100%                
+/snap/gnome-42-2204/111                 	100%                
+/snap/core22/750                        	100%                
+/snap/core20/1891                       	100%                
+/snap/core18/2785                       	100%                
+/snap/canonical-livepatch/235           	100%                
+/snap/snapd/19457                       	100%                
+/snap/core18/2751                       	100%                
+/snap/snap-store/959                    	100%                
+/boot                                   	22%                 
+/boot/efi                               	2%                  
+/run/user/752801280                     	1%                  
+#####################
+[H[2J[3J#################
+Mounted directory
+FS Name                                 	Percent             
+/dev                                    	0%                  
+/run                                    	1%                  
+/                                       	12%                 
+/dev/shm                                	2%                  
+/run/lock                               	1%                  
+/sys/fs/cgroup                          	0%                  
+/snap/bare/5                            	100%                
+/snap/snapd/19361                       	100%                
+/snap/canonical-livepatch/229           	100%                
+/snap/core/14946                        	100%                
+/snap/zoom-client/205                   	100%                
+/snap/gnome-3-38-2004/119               	100%                
+/snap/slack/79                          	100%                
+/snap/gnome-3-34-1804/93                	100%                
+/snap/core22/766                        	100%                
+/snap/gnome-42-2204/105                 	100%                
+/snap/core20/1950                       	100%                
+/snap/snap-store/638                    	100%                
+/snap/gnome-3-38-2004/140               	100%                
+/snap/gtk-common-themes/1535            	100%                
+/snap/core/15419                        	100%                
+/snap/obs-studio/1284                   	100%                
+/snap/gnome-42-2204/111                 	100%                
+/snap/core22/750                        	100%                
+/snap/core20/1891                       	100%                
+/snap/core18/2785                       	100%                
+/snap/canonical-livepatch/235           	100%                
+/snap/snapd/19457                       	100%                
+/snap/core18/2751                       	100%                
+/snap/snap-store/959                    	100%                
+/boot                                   	22%                 
+/boot/efi                               	2%                  
+/run/user/752801280                     	1%                  
+#####################

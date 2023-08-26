@@ -44,8 +44,32 @@
       state: lastest
     when: ansible_distribution == "CentOS"
 
+  - name: Starting a installed service ### Restarting a apache serverice as by default it is inactive state in centos 
+    service:
+      name: httpd
+      state: start 
+      enabled: yes
+    when: ansible_distribution == "CentOS" 
+
+  - name: Changing a file and then restarting it 
+    lineinfile:
+      src: /etc/https/conf/httpd.conf
+      regexp: '^ServerAdmin'
+      line: Serveradmin somebody@somewhere.net 
+    when: ansible_distribution == "CentOs"
+    register: Pizza ### Registering the changed state 
+
+  - name: Restarting as file is changed 
+    service:
+      name: httpd
+      state: restarted 
+    when: Pizza.changed # No need to mention distribution as we already above register state in pizza and pizza will store change state, as pizza will execute if distribution is CentOS.
+
+
+  - name:  
 #Here I am copy the file /files/default_index.html file from ansible server to remote server. Also, you can specify tag under each module,
 #not necessary to specifiy under header.
+
   - name: Copying the default file
     copy:
       src: ./file/default_index.html
